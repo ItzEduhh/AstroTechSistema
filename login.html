@@ -1,0 +1,24 @@
+<html> 
+
+  <head>
+    <title>Login</title>
+    <script>
+        function processar() {
+        var usuario = document.getElementById("Input").value;
+        var senha = document.getElementById("Input2").value;
+
+        document.getElementById("resultado").innerHTML = "Usuário: " + usuario + "<br>Senha: " + senha;
+      }
+
+    </script>
+
+  </head>
+  <body>
+    <h1>AstroTech</h1>
+    <p>Área de Login.</p>
+    <input id="Input" type="text">
+    <input id="Input2" type="text">
+    <button id="Botao" onclick="processar()">Login</button>
+    <div id="resultado">Usuário:</div>
+  </body>
+</html>
