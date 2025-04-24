@@ -1,0 +1,7 @@
+Objetivo:
+Criar um sistema para login de usuários da AstroTech.
+
+Requisitos:
+O sistema deve ter dois inputs, um botão de login e um botão para cadastro; 
+Deve incluir um email e uma senha em cada um dos inputs;
+Ao usuário terminar o login, será mostrado uma mensagem de sucesso.
