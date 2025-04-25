@@ -6,8 +6,7 @@
         function processar() {
         var usuario = document.getElementById("Input").value;
         var senha = document.getElementById("Input2").value;
-
-        document.getElementById("resultado").innerHTML = "Usuário: " + usuario + "<br>Senha: " + senha;
+        document.getElementById("resultado").innerHTML = "Usuário encontrado, seja bem vindo(a)!"
       }
 
     </script>
@@ -19,6 +18,7 @@
     <input id="Input" type="text">
     <input id="Input2" type="text">
     <button id="Botao" onclick="processar()">Login</button>
-    <div id="resultado">Usuário:</div>
+    <button id="Botao" onclick="processar()">cadastro</button>
+    <div id="resultado">Aguardando preenchimento:</div>
   </body>
 </html>
