@@ -3,3 +3,5 @@ Cronograma do sistema:
 A base do sistema;
 Uma apresentação com inputs e botão;
 Uma mensagem de suceso;
+Uma mensagem com o que o usuário preencheu;
+Remoção do botão de cadastro;
